@@ -9,5 +9,9 @@
 ### 算法目录
 - 字符串
     - [字符串匹配](./string/stack_match.cpp)
+- 双指针
+    - [同向双指针（不定长）](./two_pointer/same_direction.cpp)
+    - [滑动窗口（同向定长）](./two_pointer/sliding_window.cpp)
+    - [相向双指针](./two_pointer/opposite_direction.cpp)
 
 
