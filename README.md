@@ -8,10 +8,14 @@
 
 ### 算法目录
 - 字符串
-    - [字符串匹配](./string/stack_match.cpp)
-- 双指针
-    - [同向双指针（不定长）](./two_pointer/same_direction.cpp)
-    - [滑动窗口（同向定长）](./two_pointer/sliding_window.cpp)
-    - [相向双指针](./two_pointer/opposite_direction.cpp)
+    - [栈匹配](./strings/stack_match.cpp)
+
+- 基础算法
+    - 双指针 (同向 = 滑动窗口)
+        - [不定长同向双指针](./two_pointer/same_direction.cpp)
+        - [定长同向双指针](./two_pointer/sliding_window.cpp)
+        - [相向双指针](./two_pointer/opposite_direction.cpp)
+    - 前缀和，后缀和，差分
+        - [前后缀分解](./basis/preifx_suffix/prefix_suffix_division.cpp)
 
 
