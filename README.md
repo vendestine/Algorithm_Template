@@ -115,5 +115,9 @@ or
 - 数学
 - 其他
 
+## 学习资源
+[灵神算法模板](https://github.com/EndlessCheng/codeforces-go/tree/master)
+[leetcode3000+选手算法模板库](https://github.com/liupengsay/PyIsTheBestLang)
+[acwing体系算法模板库](https://github.com/upupming/algorithm/tree/master)
 
 
