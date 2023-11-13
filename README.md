@@ -12,21 +12,38 @@
 - 算法
   - 子算法
     - specific_algorithm.cpp
+- contest
+  - leetcode
+    - weekly contest xxx
+        - xxx_solution.cpp
+    - biweekly contest xxx
+        - xxx_solution.cpp
+  - nowcoder
+    - 小白月赛xxx
+      - xxx_solution.cpp
+  - 企业笔试
+    - 日期 + 企业.cpp
 
-文件结构：
+文件内容：
 - specific_algorithm.cpp
   - 模板题1 # 模板xxxx
-    - 模板简述
+    - 模板写法
   - 模板题2 # 模板xxxx
-    - 模板简述
+    - 模板写法
   - 题单
   - 题目代码
 or
 - specific_algorithm.cpp
   - 模板题
-    - 模板简述  
+    - 写法1
+    - 写法2  
   - 题单
   - 题目代码
+
+- xxx_solution.cpp
+  - 1 2 3 4
+  or
+  - a b c d e f
 ```
 
 ## 算法目录
