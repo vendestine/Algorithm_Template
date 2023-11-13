@@ -13,10 +13,10 @@
 
 - 基础算法
     - 双指针 (同向 = 滑动窗口)
-        - [不定长同向双指针](./two_pointer/same_direction.cpp)
-        - [定长同向双指针](./two_pointer/sliding_window.cpp)
-        - [相向双指针](./two_pointer/opposite_direction.cpp)
+        - [不定长同向双指针](./basis/two_pointer/same_direction.cpp)
+        - [定长同向双指针](./basis/two_pointer/sliding_window.cpp)
+        - [相向双指针](./basis/two_pointer/opposite_direction.cpp)
     - 前缀和，后缀和，差分
-        - [前后缀分解](./basis/preifx_suffix/prefix_suffix_division.cpp)
+        - [前后缀分解](./basis/pre_suf_diff/prefix_suffix_division.cpp)
 
 
