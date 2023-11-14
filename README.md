@@ -35,8 +35,8 @@
 or
 - specific_algorithm.cpp
   - 模板题
-    - 写法1
-    - 写法2  
+    - 模板写法1
+    - 模板写法2  
   - 题单
   - 题目代码
 
@@ -61,7 +61,8 @@ or
         - [前缀和](./basis/pre_suf_diff/prefix_sum.cpp)
         - [差分](./basis/pre_suf_diff/diff.cpp)
     - 二分，三分
-        - [二分查找](./basis/binary_search/binary_search.cpp)
+        - [整数二分](./basis/binary_search/binary_search_int.cpp)
+        - [实数二分](./basis/binary_search/binary_search_float.cpp)
         - [二分答案](./basis/binary_search/binary_search_ans.cpp)
         - [三分](./basis/binary_search/ternary_search.cpp)
     - 位运算
