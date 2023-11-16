@@ -1,6 +1,6 @@
 /*
 模板题 
-- lc_34. 在排序数组中查找元素的第一个和最后一个位置
+lc_34. 在排序数组中查找元素的第一个和最后一个位置
 
 首先确定求什么
 1. >= x的第一个数  < x | >= x  求>=x的右边界
@@ -22,6 +22,25 @@ while (l + 1 < r) {
     else r = mid;
 }
 return 左右边界 //根据要求确定求左or有边界，左边界是l，右边界是r
+
+- 左右边界法：一定有解，考虑无解的话自己在边界侧加一位即可
+
+求右边界：
+while (l < r) {
+    int mid = l + r >> 1;
+    if (check(mid)) r = mid;    // check()判断mid是否满足性质
+    else l = mid + 1;
+}
+return r;
+
+求左边界:
+while (l < r) {
+    int mid = l + r + 1 >> 1;
+    if (check(mid)) l = mid;
+    else r = mid - 1;
+}
+return l;
+
 
 - 注意事项
 1. 因为库函数的lower_bound 和 upper_bound 都是找右边界
@@ -119,4 +138,31 @@ public:
         return {start, end};
     }
 };
+
+
+class lc_34_3 {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        int l = 0, r = nums.size();
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            if (nums[mid] >= target) r = mid;
+            else l = mid + 1;
+        }
+        int start = r;  // >=x右边界
+        
+        l = -1, r = nums.size() - 1;
+        while (l < r) {
+            int mid = l + (r - l) / 2 + 1;
+            if (nums[mid] <= target) l = mid;
+            else r = mid - 1;
+        }
+        int end = l; // <=x左边界
+        if (start == nums.size() || nums[start] != target) return {-1, -1};
+        // if (end == -1 || nums[end] != target) return {-1, -1};
+        return {start, end};
+    }
+};
+
+
 
