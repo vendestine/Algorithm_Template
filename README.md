@@ -8,42 +8,41 @@
 
 ## 目录文件结构
 ```
-目录结构：
-- 算法
-  - 子算法
-    - specific_algorithm.cpp
-- contest
-  - leetcode
-    - weekly contest xxx
-        - xxx_solution.cpp
-    - biweekly contest xxx
-        - xxx_solution.cpp
-  - nowcoder
-    - 小白月赛xxx
-      - xxx_solution.cpp
-  - 企业笔试
-    - 日期 + 企业.cpp
-
-文件内容：
-- specific_algorithm.cpp
-  - 模板题1 # 模板xxxx
-    - 模板写法
-  - 模板题2 # 模板xxxx
-    - 模板写法
-  - 题单
-  - 题目代码
-or
-- specific_algorithm.cpp
-  - 模板题
-    - 模板写法1
-    - 模板写法2  
-  - 题单
-  - 题目代码
-
-- xxx_solution.cpp
-  - 1 2 3 4
-  or
-  - a b c d e f
+│  LICENSE
+│  README.md
+│  
+├─basis # 基础算法
+│  ├─binary_search #二分
+│  │      binary_search_ans.cpp
+│  │      binary_search_float.cpp
+│  │      binary_search_int.cpp
+│  │      ternary_search.cpp
+│  │      
+│  ├─bit_operation # 位运算
+│  │      bits.cpp
+│  │      set.cpp
+│  │      
+│  ├─pre_suf_diff # 前后缀，差分
+│  │      diff.cpp
+│  │      prefix_suffix_division.cpp
+│  │      prefix_sum.cpp
+│  │      
+│  └─two_pointer # 双指针
+│          opposite_direction.cpp
+│          same_direction.cpp
+│          sliding_window.cpp
+│          
+├─contest # 竞赛
+│  ├─job_exam # 笔试
+│  ├─leetcode # 力扣周赛
+│  └─nowcoder # 牛客月赛
+├─search # 搜索算法
+│      backtracking.cpp
+│      bfs.cpp
+│      dfs.cpp
+│      
+└─strings # 字符串算法
+        stack_match.cpp
 ```
 
 ## 算法目录
