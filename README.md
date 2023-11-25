@@ -33,22 +33,24 @@
 │          sliding_window.cpp
 │          
 ├─contest # 竞赛
-│  ├─job_exam # 笔试
-│  ├─leetcode # 力扣周赛
-│  └─nowcoder # 牛客月赛
-├─search # 搜索算法
-│      backtracking.cpp
-│      bfs.cpp
-│      dfs.cpp
-│      
-└─strings # 字符串算法
-        stack_match.cpp
+│  ├─job_exam
+│  ├─leetcode
+│  │  └─371
+│  │          A.cpp
+│  │          B.cpp
+│  │          
+│  └─nowcoder
+├─data_structure # 数据结构
+│  └─stack
+│          stack.cpp
+│          
+└─search # 搜索算法
+        backtracking.cpp
+        bfs.cpp
+        dfs.cpp
 ```
 
 ## 算法目录
-
-- 字符串
-    - [栈匹配](./strings/stack_match.cpp)
 
 - 基础算法
     - 双指针 (同向 = 滑动窗口)
@@ -73,7 +75,7 @@
     - [回溯 DFS树形状态空间](./search/backtracking.cpp)
 
 - 数据结构
-    - 栈
+    - [栈](./data_structure/stack/stack.cpp)
     - 队列
     - 链表
     - 二叉树
