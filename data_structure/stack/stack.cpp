@@ -11,6 +11,8 @@ initial：
 1-base，初始化top = 0（表示空），元素1 - size, 所以初始化stk[size + 1]
 0-base，初始化top = -1（表示空），元素0 - size - 1，所以初始化stk[size]
 
+1-base
+
 push:
 stk[++top] = x;
 
@@ -19,11 +21,11 @@ if (top == 0) error
 --top;
 
 access:
-stk[top]
+stk[top] 非空才能访问
 
 isempty:
 top > 0 栈不为空
-top <= 0 栈为空
+top == 0 栈为空
 
 query k: (查询从上往下第k个元素）
 stk[top + 1 - k];
