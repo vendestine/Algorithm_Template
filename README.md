@@ -78,7 +78,7 @@
     - [栈](./data_structure/stack/stack.cpp)
     - [队列](./data_structure/queue/queue.cpp)
     - [链表](./data_structure/List/list.cpp)
-    - 二叉树
+    - [二叉树](./data_structure/binary_tree/binary_tree.cpp)
     - 哈希表
     - 堆
     - 单调栈 
