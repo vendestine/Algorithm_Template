@@ -83,7 +83,7 @@
     - 堆
     - 单调栈 
     - 单调队列
-    - 树
+    - [树](./data_structure/tree/tree.cpp)
     - 字典树 Trie
     - 并查集
 
