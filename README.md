@@ -70,9 +70,9 @@
         - [常用技巧](./basis/bit_operation/bits.cpp)
         - [集合论](./basis/bit_operation/set.cpp)
 - 搜索
-    - [DFS 深度优先搜索](./search/dfs.cpp)
-    - [BFS 广度优先搜索](./search/bfs.cpp)
-    - [回溯 DFS树形状态空间](./search/backtracking.cpp)
+    - [DFS](./search/dfs.cpp)
+    - [BFS](./search/bfs.cpp)
+    - [回溯](./search/backtracking.cpp)
 
 - 数据结构
     - [栈](./data_structure/stack/stack.cpp)
@@ -102,7 +102,7 @@
     - 状压dp
     - 树形dp
 - 图论
-    - 图的存储
+    - [图基础和存储](./graph/graph_basic.cpp)
     - 图的遍历
     - 最短路
         - Dijkstra
