@@ -56,6 +56,8 @@ lc_40. 组合总和 II(https://leetcode.cn/problems/combination-sum-ii/)
 lc_46. 全排列 (https://leetcode.cn/problems/permutations)
 lc_47. 全排列 II (https://leetcode.cn/problems/permutations-ii/)
 
+排列型回溯 只有答案视角
+
 */
 
 
@@ -233,7 +235,7 @@ public:
 };
 
 
-// 子集问题2 答案角度2 层内map去重
+// 子集问题2 答案角度2 层内set去重
 class lc_90_05 {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -557,7 +559,7 @@ public:
 };
 
 
-// 全排列1 bool数组标记
+// 全排列1 vis数组标记
 class lc_46_01 {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -621,7 +623,7 @@ public:
 };
 
 
-// 全排列2 层内去重 + 分支内去重
+// 全排列2 层内去重
 class lc_47_01 {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -653,7 +655,7 @@ public:
     }
 };
 
-// 全排列2 层内set去重 + 分支内去重
+// 全排列2 层内set去重
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -689,7 +691,7 @@ public:
 
 
 
-// 全排列2 分支去重（分支之间去重 + 分支内去重）
+// 全排列2 直接分支间去重
 class lc_47_03 {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -720,6 +722,8 @@ public:
         return ans;
     }
 };
+
+
 
 
 
